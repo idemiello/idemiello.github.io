@@ -1,0 +1,107 @@
+
+@import url(../css/flipclock.css);
+@font-face {
+    font-display: block;
+    font-family: "Futura-LT-W01-Light";
+    src: url("wfonts/file.eot?#iefix");
+    src: url("wfonts/file.eot?#iefix") format("eot"), url("wfonts/file.woff2") format("woff2"), url("wfonts/file.woff") format("woff"), url("wfonts/file.ttf") format("truetype"), url("wfonts/file.svg#14d6bf5d-15f1-4794-b18e-c03fb9a5187e") format("svg");
+}
+
+@font-face {
+    font-family: wf;
+    src: url("ufonts/file.woff2") format("woff2"), url("ufonts/file.woff") format("woff"), url("/ufonts/file.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: wf_a2a07fa5ceab4b918cbfaf3ce;
+    src: url("fonts/file.woff2") format("woff2"), url("fonts/file.woff") format("woff"), url("fonts/file.ttf") format("ttf");
+}
+
+body {
+    overflow-x: hidden;
+    transition: inherit;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+}
+
+.ms-section h1 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: wfont, wf, orig_condita;
+}
+
+.ms-section span {
+    font: var(--font_7);
+    letter-spacing: 0.05em
+}
+
+.preloader {
+    background-color: #ffffff;
+    background-image: url("../images/preloader.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99999;
+}
+
+.preloader_disabler {
+    bottom: 10px;
+    left: 43%;
+    position: absolute;
+}
+
+.upcoming-wedding-event.ulockd-flip-clock {
+    position: relative;
+}
+
+.upcoming-wedding-event .clock.flip-clock-wrapper {
+    font-family: "serif";
+}
+
+.upcoming-wedding-event .clock.flip-clock-wrapper ul li a div div.inn {
+    background-color: #ffffff;
+    text-shadow: none;
+}
+
+.upcoming-wedding-event .clock.flip-clock-wrapper .flip-clock-dot {
+    background-color: #ffffff;
+}
+
+.upcoming-wedding-event .clock.flip-clock-wrapper .flip {
+    box-shadow: none;
+}
+
+
+/* Slider Sass */
+
+.ms-section {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+}
+
+.ms-section.ms-table {
+    display: table;
+    width: 100%;
+}
+
+.ms-tableCell {
+    display: table-cell;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.ms-easing {
+    -webkit-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+}
