@@ -2715,7 +2715,7 @@ function(e) {
 
         function Y() { var e; return e = t.PointerEvent ? { down: "pointerdown", move: "pointermove" } : { down: "MSPointerDown", move: "MSPointerMove" } }
 
-        function F(e) { var t = []; return t.y = "undefined" != typeof e.pageY && (e.pageY || e.pageX) ? e.pageY : e.touches[0].pageY, t.x = "undefined" != typeof e.pageX && (e.pageY || e.pageX) ? e.pageX : e.touches[0].pageX, I && D(e) && (t.y = e.touches[0].pageY, t.x = e.touches[0].pageX), t }
+        function F(e) { var t = []; return t.y = "undefined" != typeof e.pageY && (e.pageY || e.pageX) ? e.pageY : e.touches[0].pageY, t.x = "undefined" != typeof e.pageX && (e.pageY || e.pageX) ? e.pageX : e.touches[0].pageX, I && D(e), t }
         var X = e.fn.multiscroll;
         s = e.extend({ verticalCentered: !0, scrollingSpeed: 700, easing: "easeInQuart", menu: !1, sectionsColor: [], anchors: [], navigation: !1, navigationPosition: "right", navigationColor: "#000", navigationTooltips: [], loopBottom: !1, loopTop: !1, css3: !1, paddingTop: 0, paddingBottom: 0, fixedElements: null, normalScrollElements: null, keyboardScrolling: !0, touchSensitivity: 5, sectionSelector: ".ms-section", leftSelector: ".ms-left", rightSelector: ".ms-right", afterLoad: null, onLeave: null, afterRender: null, afterResize: null }, s);
         var q = 600,
