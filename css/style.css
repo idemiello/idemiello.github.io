@@ -127,8 +127,8 @@ body {
 }
 
 .smalleme {
-    font-size: 40px !important;
-    font-weight: 400 !important;
+    font-size: 50px !important;
+    font-weight: 500 !important;
     font-family: wfont, wf, orig_condita !important;
     margin-top: -21px;
     margin-bottom: -16px;
@@ -140,5 +140,16 @@ body {
 
 .showdate {
     position: relative;
-    top: -18%;
+    top: -10%;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:focus,
+a:hover {
+    color: #9b870c;
+    text-decoration: underline;
 }
