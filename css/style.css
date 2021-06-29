@@ -114,7 +114,7 @@ body {
 
 .data {
     font-size: 60px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     font-family: wfont, wf, orig_condita !important;
 }
 
@@ -122,8 +122,8 @@ body {
     font-size: 35px !important;
     font-weight: 400 !important;
     font-family: wfont, wf, orig_condita !important;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .smalleme {

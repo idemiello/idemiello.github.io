@@ -28,6 +28,9 @@
     .masonry-gallery.grid-10 .isotope-item {
         width: 20%;
     }
+    .upcoming-wedding-event.ulockd-flip-clock {
+        display: none;
+    }
 }
 
 
