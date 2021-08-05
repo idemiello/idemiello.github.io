@@ -223,6 +223,12 @@
     .main-slider2 .mslider-caption {
         padding: 8%;
     }
+    .sizesed {
+        font-size: 15px !important;
+    }
+    .smalle {
+        font-size: 26px !important;
+    }
 }
 
 @media only screen and (max-width:992px) {

@@ -7,7 +7,7 @@
         if ($('.preloader').length) {
             $('.preloader').delay(200).fadeOut(300);
         }
-       
+
     }
 
 
@@ -71,17 +71,17 @@
         clock.start();
     }
 
-  
 
- 
 
- 
+
+
+
     /* ----- FullPage Slider, Particles Script & Multiscroll ----- */
- 
+
     if ($('#myContainer').length) {
         $('#myContainer').multiscroll({
-            sectionsColor: ['#1BBC9B', '#1BBC9B', '#1BBC9B', '#1BBC9B'],
-            anchors: ['first', 'second', 'third', 'fourth'],
+            sectionsColor: ['#1BBC9B', '#1BBC9B', '#1BBC9B', '#1BBC9B', '#1BBC9B'],
+            anchors: ['first', 'second', 'third', 'fourth', 'five'],
             menu: '#menu',
             css3: true,
             paddingTop: '70px',
@@ -143,7 +143,7 @@
         });
     }
 
-  
+
 
     /* ======
        When document is ready, do
