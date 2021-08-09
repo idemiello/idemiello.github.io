@@ -80,8 +80,8 @@
 
     if ($('#myContainer').length) {
         $('#myContainer').multiscroll({
-            sectionsColor: ['#1BBC9B', '#1BBC9B', '#1BBC9B', '#1BBC9B', '#1BBC9B'],
-            anchors: ['first', 'second', 'third', 'fourth', 'five'],
+            sectionsColor: ['#1BBC9B', '#1BBC9B', '#1BBC9B', '#1BBC9B', '#1BBC9B', '#1BBC9B'],
+            anchors: ['first', 'second', 'third', 'fourth', 'fifth', 'sixth'],
             menu: '#menu',
             css3: true,
             paddingTop: '70px',
