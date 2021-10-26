@@ -153,7 +153,6 @@
         // navbarScrollfixed();
         // scrollToTop();
         wowAnimation();
-        flip_Clock();
         // barFill();
         //mhome_slider();
     });
